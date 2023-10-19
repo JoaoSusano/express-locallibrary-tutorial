@@ -12,8 +12,8 @@ const helmet = require("helmet");
 
 
 const app = express();
-const port = normalizePort(process.env.PORT || '3000');
-app.set('port', port);
+//const port = normalizePort(process.env.PORT || '3000');
+//app.set('port', port);
 
 //Set Rate Limiter
 const RateLimit = require("express-rate-limit");
