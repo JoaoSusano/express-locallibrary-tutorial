@@ -6,7 +6,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www",
+    "start": "node app.js",
     "devstart": "nodemon ./bin/www",
     "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart",
     "test": "jest"
