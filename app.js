@@ -12,6 +12,7 @@ const helmet = require("helmet");
 
 
 const app = express();
+const port = process.env.PORT || 1000;
 
 //Set Rate Limiter
 const RateLimit = require("express-rate-limit");
